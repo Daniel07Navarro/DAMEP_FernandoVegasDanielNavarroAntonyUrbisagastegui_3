@@ -8,4 +8,10 @@
     <string name="fecha_nacimiento_label" />
     <string name="fecha_nacimiento_label2">Fecha de Nacimiento</string>
     <string name="hora_nacimiento_label">Hora de Nacimiento</string>
+    <string name="textViewpersonas">¿Cuántas personas viven en la vivienda?</string>
+    <string name="checkboxUrbano">Urbano</string>
+    <string name="radioButtonUrbano">Urbano</string>
+    <string name="radioButtonRural">Rural</string>
+    <string name="editTextPersona" />
+    <string name="residencia_label">Zona de residencia</string>
 </resources>
