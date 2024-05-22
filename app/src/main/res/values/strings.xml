@@ -14,4 +14,13 @@
     <string name="radioButtonRural">Rural</string>
     <string name="editTextPersona" />
     <string name="residencia_label">Zona de residencia</string>
+    <string name="textViewIngresoPromedio">Ingreso promedio de la familia</string>
+    <string name="textViewOpinion">¿Que opinas sobre los bonos otorgados sobr el gobierno?</string>
+    <string name="textViewMascotasCasa">Mascotas que viven en casa</string>
+    <string name="checkBoxGato">Gato</string>
+    <string name="checkBoxPerro">Perro</string>
+    <string name="checkBoxPollo">Pollo</string>
+    <string name="checkBoxPato">Pato</string>
+    <string name="checkBoxOtro">Otro</string>
+    <string name="btnEnviarDatos">Enviar Datos</string>
 </resources>

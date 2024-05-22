@@ -161,6 +161,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="@+id/textViewResidencia"
         app:layout_constraintTop_toBottomOf="@+id/textViewResidencia">
 
@@ -181,7 +182,7 @@
         android:id="@+id/textViewpersonas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="@string/textViewpersonas"
         app:layout_constraintStart_toStartOf="@+id/radioGroup"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
@@ -190,11 +191,104 @@
         android:id="@+id/editTextTextPersona"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/editTextPersona"
         app:layout_constraintStart_toStartOf="@+id/textViewpersonas"
         app:layout_constraintTop_toBottomOf="@+id/textViewpersonas" />
+
+    <TextView
+        android:id="@+id/textViewPromedioFamilia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewIngresoPromedio"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersona"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersona" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/textViewPromedioFamilia"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPromedioFamilia" />
+
+    <TextView
+        android:id="@+id/textViewOpinion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewOpinion"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName4"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/textViewOpinion"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOpinion" />
+
+    <TextView
+        android:id="@+id/textViewMascotasCasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewMascotasCasa"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName5"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkBoxGato"
+        app:layout_constraintStart_toStartOf="@+id/textViewMascotasCasa"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMascotasCasa" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkBoxPerro"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMascotasCasa" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPollo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkBoxPollo"
+        app:layout_constraintStart_toEndOf="@+id/checkBox2"
+        app:layout_constraintTop_toTopOf="@+id/checkBox2" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkBoxPato"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxPollo"
+        app:layout_constraintTop_toTopOf="@+id/checkBox2" />
+
+    <CheckBox
+        android:id="@+id/checkBoxOtro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkBoxOtro"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxPato"
+        app:layout_constraintTop_toTopOf="@+id/checkBox2" />
+
+    <Button
+        android:id="@+id/btnEnviarDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#022858"
+        android:text="@string/btnEnviarDatos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxPollo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
