@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DAMEP_FernandoVegasDanielNavarro</string>
+    <string name="title_label">Censo DAM 2024</string>
+    <string name="apellidos_nombres_label">Apellidos y Nombres</string>
+    <string name="correo_label">Correo Electrónico</string>
+    <string name="clave_label">Clave</string>
+    <string name="telefono_label">Teléfono de Contacto</string>
+    <string name="fecha_nacimiento_label" />
+    <string name="fecha_nacimiento_label2">Fecha de Nacimiento</string>
+    <string name="hora_nacimiento_label">Hora de Nacimiento</string>
+</resources>
